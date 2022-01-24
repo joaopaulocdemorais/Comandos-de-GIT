@@ -4,4 +4,9 @@
  ***
 ## Nesse repositório vou colocar os comandos de GIT que uso atualmente no meu dia a dia de estudante de desenvolvimento de softwares.
 
+O quadro a seguir conterá os comandos na  primeira coluna e a explicação das suas funções na segunda.
 
+COMANDO|EXPLICAÇÃO
+:---: | :---:
+git config --global user.name "NomeUsuario"|Define o nome de usuário do seu GIT. Exemplo: `git config --global user.name "João"`
+git config --global use.email "E-mail"|Define o e-mail do seu usuário do GIT. Exemplo: `git config --global use.email "joaopaulomorais2@gmail.com"`
