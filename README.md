@@ -10,3 +10,10 @@ COMANDO|EXPLICAÇÃO
 :---: | :---:
 git config --global user.name "NomeUsuario"|Define o nome de usuário do seu GIT. Exemplo: `git config --global user.name "João"`
 git config --global use.email "E-mail"|Define o e-mail do seu usuário do GIT. Exemplo: `git config --global use.email "joaopaulomorais2@gmail.com"`
+git config --list|Exibe como estão as configurações de usuários do git.
+mkdir nomepasta|Cria uma pasta no terminal (cmd) do Windows. Ex: `mkdir git`.
+cd diretório/pasta|Navega até uma pasta de arquivos do Windows através do terminal. Ex: `cd documents`
+dir|Mostra todos os arquivos do diretório no cmd.
+git init|Inicializa o git na pasta que você deseja ter o controle de versão.
+git status|Mostra o atual estado dos arquivos dentro do git.
+git add nomeDoAquivo|Passa um arquivo de modificado (modified) para preparado (staged) o deixando pronto para realizar um commit.
