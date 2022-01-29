@@ -16,4 +16,4 @@ cd diretório/pasta|Navega até uma pasta de arquivos do Windows através do ter
 dir|Mostra todos os arquivos do diretório no cmd.
 git init|Inicializa o git na pasta que você deseja ter o controle de versão.
 git status|Mostra o atual estado dos arquivos dentro do git.
-git add nomeDoAquivo|Passa um arquivo de modificado (modified) para preparado (staged) o deixando pronto para realizar um commit.
+git add nomeDoAquivo|Passa um arquivo de modificado (modified) para preparado (staged) o deixando pronto para realizar um commit.Ex: `git add Readme.md`
