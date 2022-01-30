@@ -17,3 +17,9 @@ dir|Mostra todos os arquivos do diretório no cmd.
 git init|Inicializa o git na pasta que você deseja ter o controle de versão.
 git status|Mostra o atual estado dos arquivos dentro do git.
 git add nomeDoAquivo|Passa um arquivo de modificado (modified) para preparado (staged) o deixando pronto para realizar um commit.Ex: `git add Readme.md`
+git add .|Passa todos os arquivos do repositório de modificado (modified) para preparado (staged) o deixando pronto para realizar um commit.
+git diff|Mostra as mudanças feitas nos arquivos antes de ser feito um commit.
+git commit -m "Mensagem"|Guardar o estado do seu repositório naquele momento. Ex: `git commit -m "add Readme.md"`
+git log|Lista os estados (commits) do repositório.
+git log --graph|Mostra de forma gráfica como foi o andamento dos branches no repositório
+git checkout -b nomeDoBranch|Cria um novo Branch. Ex: `git checkout -b developer`
