@@ -21,5 +21,9 @@ git add .|Passa todos os arquivos do repositório de modificado (modified) para 
 git diff|Mostra as mudanças feitas nos arquivos antes de ser feito um commit.
 git commit -m "Mensagem"|Guardar o estado do seu repositório naquele momento. Ex: `git commit -m "add Readme.md"`
 git log|Lista os estados (commits) do repositório.
-git log --graph|Mostra de forma gráfica como foi o andamento dos branches no repositório
 git checkout -b nomeDoBranch|Cria um novo Branch. Ex: `git checkout -b developer`
+git branch|Mostra os branchs do repositório e qual está setado no momento.
+git log --graph|Mostra de forma gráfica como foi o andamento dos branches no repositório
+git checkout nomeDoBranch|Seta o branch que foi passado no comando. Ex: `git checkout developer`
+git branch -D nomeDoBranch|Apaga o branch que foi passado no comando. OBS: O "-D" do comando esta em letra maiúscula. Ex: `git branch -D developer`
+git marge nomeDoBranch|Faz o marge para dentro que branch que você desejá. Ex: `git marge developer`. [Clique aqui para saber o que git-marge](https://git-scm.com/docs/git-merge)
