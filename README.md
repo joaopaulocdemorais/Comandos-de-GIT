@@ -1,8 +1,8 @@
-# Comandos-de-GIT
+# Comandos de GIT
 
  ![Logo GIT](https://github.com/joaopaulocm23/Comandos-de-GIT/blob/b08e01ee6971a20c53d1a3dbc3617c8cbb629595/Git-Logo-2Colorp.png)
  ***
-## Nesse repositório vou colocar os comandos de GIT que uso atualmente no meu dia a dia de estudante de desenvolvimento de softwares.
+## Nesse repositório vou colocar os comandos de GIT que uso atualmente no meu dia a dia de estudante de desenvolvimento de softwares. Uso esses comandos no CMD Windows sem interface gráfica para o GIT.
 
 O quadro a seguir conterá os comandos na  primeira coluna e a explicação das suas funções na segunda.
 
@@ -26,4 +26,6 @@ git branch|Mostra os branchs do repositório e qual está setado no momento.
 git log --graph|Mostra de forma gráfica como foi o andamento dos branches no repositório
 git checkout nomeDoBranch|Seta o branch que foi passado no comando. Ex: `git checkout developer`
 git branch -D nomeDoBranch|Apaga o branch que foi passado no comando. OBS: O "-D" do comando esta em letra maiúscula. Ex: `git branch -D developer`
-git marge nomeDoBranch|Faz o marge para dentro que branch que você desejá. Ex: `git marge developer`. [Clique aqui para saber o que git-marge](https://git-scm.com/docs/git-merge)
+git marge nomeDoBranch|Faz o marge para dentro do branch que você desejá. Ex: `git marge developer`. [Clique aqui para saber o que git-marge](https://git-scm.com/docs/git-merge)
+git rebase nomeDoBranch|Faz o rebase para dentro do branch que voçê desejá. Ex: ``git rebase developer`.[Clique aqui para saber o que git-rebase](https://git-scm.com/docs/git-rebase)
+git show hashDoCommit|Mostrar as alterações adicionadas em relação ao commit anterior.Ex: `git show c58453f50f1ad91ee8709911c1ed68656ae67d43`
