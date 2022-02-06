@@ -31,3 +31,4 @@ git rebase nomeDoBranch|Faz o rebase para dentro do branch que voçê desejá. E
 git show hashDoCommit|Mostrar as alterações adicionadas em relação ao commit anterior.Ex: `git show c58453f50f1ad91ee8709911c1ed68656ae67d43`
 git reset nomeDoArquivo|Retorna o arquivo de staged (pronto para realizar o commit) para modified (arquivo em modificação). Ex: `git reset Readme.md`
 git checkout nomeDoArquivo|Retorna um arquivo em edição (modified) para o estado do último commit. Ex: `git checkout Readme.md`
+git reset --hard CodigoDoCommitQueDesejaVoltar| Volta para o commit  que você apontou através do código (hash) e elimina todos commit acima dele. Ex: `git reset --hard 901794c31e3a56e545d10b32d7bc919fd4227a7b`
