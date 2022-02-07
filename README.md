@@ -33,3 +33,5 @@ git reset nomeDoArquivo|Retorna o arquivo de staged (pronto para realizar o com
 git checkout nomeDoArquivo|Retorna um arquivo em edição (modified) para o estado do último commit. Ex: `git checkout Readme.md`
 git reset --hard CodigoDoCommitQueDesejaVoltar| Volta para o commit  que você apontou através do código (hash) e elimina todos commit acima dele, e retira todas as modificações feitas nos arquivos. Ex: `git reset --hard 901794c31e3a56e545d10b32d7bc919fd4227a7b`
 git reset --mixed CodigoDoCommitQueDesejaVoltar|Volta para o commit  que você apontou através do código (hash) e elimina todos commit acima dele, porém deixa o arquivo em modo de modificação, e não tira as alterações feitas. Ex: `git mixed --hard 901794c31e3a56e545d10b32d7bc919fd4227a7b`
+git reset --soft CodigoDoCommitQueDesesaVoltar|Volta para o commit que você apontou através do código porem deixa os arquivos anteriores, e o mesmos ficam em modo staged prontos para realizar um novo commit.
+git remote add LinkDoRepositorioRemoto|Adiciona repositório remoto (GitHub) ao local.
