@@ -35,3 +35,7 @@ git reset --hard CodigoDoCommitQueDesejaVoltar| Volta para o commit  que você a
 git reset --mixed CodigoDoCommitQueDesejaVoltar|Volta para o commit  que você apontou através do código (hash) e elimina todos commit acima dele, porém deixa o arquivo em modo de modificação, e não tira as alterações feitas. Ex: `git mixed --hard 901794c31e3a56e545d10b32d7bc919fd4227a7b`
 git reset --soft CodigoDoCommitQueDesesaVoltar|Volta para o commit que você apontou através do código porem deixa os arquivos anteriores, e o mesmos ficam em modo staged prontos para realizar um novo commit.
 git remote add LinkDoRepositorioRemoto|Adiciona repositório remoto (GitHub) ao local.  
+git remote|Mostra o repositório remoto que está adicionado.
+git push RepositórioDeDestino RepositórioDeOrigem| Envia os arquivos para o repositório remoto.
+git push -u  RepositórioDeDestino RepositórioDeOrigem|Comando para enviar arquivos para o GitHub na primeira vez.  O "-u" do comando grava o destino e a origem do repositório, assim nas próximas vezes basta usar o `git push`. Ex: `git push -u origin master`
+git push|Caso a origem e o destinho do repositório sejam iguais, após usar o  "-u" da primeira vez basta fazer um `git push` para enviar as atualizações.
