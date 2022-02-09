@@ -39,4 +39,5 @@ git remote|Mostra o repositório remoto que está adicionado.
 git push RepositórioDeDestino RepositórioDeOrigem| Envia os arquivos para o repositório remoto.
 git push -u  RepositórioDeDestino RepositórioDeOrigem|Comando para enviar arquivos para o GitHub na primeira vez.  O "-u" do comando grava o destino e a origem do repositório, assim nas próximas vezes basta usar o `git push`. Ex: `git push -u origin master`
 git push|Caso a origem e o destinho do repositório sejam iguais, após usar o  "-u" da primeira vez basta fazer um `git push` para enviar as atualizações.
-git clone LinkDoRepositórioRemoto RepositórioLocal|Clona um repositório remoto para seu computador.
+git clone LinkDoRepositórioRemoto RepositórioLocal|Clona um repositório remoto para seu computador. Ex: `git clone git@github.com:joaopaulocm23/Comandos-de-GIT.git CloneComandos`
+git tag -a NumeroVersao -m "Mensagem"|Usado para definir uma versão (Ponto) do sistema. Ex: `git tag -a v1 -m "Primeira versão"`
