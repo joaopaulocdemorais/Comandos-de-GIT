@@ -41,3 +41,5 @@ git push -u  RepositórioDeDestino RepositórioDeOrigem|Comando para enviar arqu
 git push|Caso a origem e o destinho do repositório sejam iguais, após usar o  "-u" da primeira vez basta fazer um `git push` para enviar as atualizações.
 git clone LinkDoRepositórioRemoto RepositórioLocal|Clona um repositório remoto para seu computador. Ex: `git clone git@github.com:joaopaulocm23/Comandos-de-GIT.git CloneComandos`
 git tag -a NumeroVersao -m "Mensagem"|Usado para definir uma versão (Ponto) do sistema. Ex: `git tag -a v1 -m "Primeira versão"`
+git tag|Mostra todas as tags geradas.
+git push RepositórioDeDestino RepositórioDeOrigem --tags|Envia as versões (tags) para o GitHub. `git push origin master --tags`
