@@ -43,3 +43,5 @@ git clone LinkDoRepositórioRemoto RepositórioLocal|Clona um repositório remot
 git tag -a NumeroVersao -m "Mensagem"|Usado para definir uma versão (Ponto) do sistema. Ex: `git tag -a v1 -m "Primeira versão"`
 git tag|Mostra todas as tags geradas.
 git push RepositórioDeDestino RepositórioDeOrigem --tags|Envia as versões (tags) para o GitHub. `git push origin master --tags`
+
+### Nesse link  >> [clique aqui](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) << tem a documentação de como gerar uma chave ssh para autenticar a máquina local ao GitHub. Isso evita  erro de permissão ao subir arquivos para o GitHub, e preciso criar uma chave para cada máquina.
