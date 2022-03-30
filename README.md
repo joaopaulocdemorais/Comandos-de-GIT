@@ -26,7 +26,7 @@ git branch|Mostra os branchs do repositório e qual está setado no momento.
 git log --graph|Mostra de forma gráfica como foi o andamento dos branches no repositório
 git checkout nomeDoBranch|Seta o branch que foi passado no comando. Ex: `git checkout developer`
 git branch -D nomeDoBranch|Apaga o branch que foi passado no comando. OBS: O "-D" do comando esta em letra maiúscula. Ex: `git branch -D developer`
-git marge nomeDoBranch|Faz o marge para dentro do branch que você desejá. Ex: `git marge developer`. [Clique aqui para saber o que git-marge](https://git-scm.com/docs/git-merge)
+git merge nomeDoBranch|Faz o marge para dentro do branch que você desejá. Ex: `git marge developer`. [Clique aqui para saber o que git-marge](https://git-scm.com/docs/git-merge)
 git rebase nomeDoBranch|Faz o rebase para dentro do branch que voçê desejá. Ex: ``git rebase developer`.[Clique aqui para saber o que git-rebase](https://git-scm.com/docs/git-rebase)
 git show hashDoCommit|Mostrar as alterações adicionadas em relação ao commit anterior.Ex: `git show c58453f50f1ad91ee8709911c1ed68656ae67d43`
 git reset nomeDoArquivo|Retorna o arquivo de staged (pronto para realizar o commit) para modified (arquivo em modificação). Ex: `git reset Readme.md`
